@@ -2,3 +2,5 @@ yt-dlp
 PyInstaller
 wxPython
 ffmpeg-python
+downloading.icns
+downloading.ico
