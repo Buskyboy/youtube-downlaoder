@@ -47,5 +47,5 @@ jobs:
     - name: Upload macOS Application Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: YouTube-Downloader-macOS
+        name: YouTube-Downloader-macOS.dmg
         path: dist/YouTube-Downloader.dmg
