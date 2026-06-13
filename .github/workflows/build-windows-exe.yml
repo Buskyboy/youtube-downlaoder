@@ -31,7 +31,7 @@ jobs:
 
     - name: Build Executable with PyInstaller
       run: |
-        pyinstaller --onefile --windowed myDownloader.py
+        pyinstaller --onefile --icon=downloading.ico --windowed myDownloader.py
 
     - name: Upload Executable Artifact
       uses: actions/upload-artifact@v4
